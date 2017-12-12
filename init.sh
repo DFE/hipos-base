@@ -24,13 +24,10 @@ BB_LAYERS_INCLUDED="\
 	meta-telephony \
 	meta-angstrom \
 	meta-openembedded/meta-oe \
-	meta-openembedded/meta-systemd \
 	meta-openembedded/meta-multimedia \
 	meta-openembedded/meta-networking \
 	meta-openembedded/meta-webserver \
 	meta-openembedded/meta-python \
-	meta-openembedded/meta-ruby \
-	meta-openembedded/meta-efl \
 	meta-openembedded/meta-gnome \
 	meta-openembedded/meta-xfce \
 	openembedded-core/meta \
