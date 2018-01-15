@@ -238,6 +238,3 @@ DISTRO_FEATURES_remove = "x11 wayland"
 
 # add "ptest" to our DISTRO_FEATURES variable causes -ptest packages to be built.
 DISTRO_FEATURES_append = " ptest"
-
-# hikirk kernel build with gcc 5.2.0 does not boot
-ANGSTROM_GCC_VERSION_arm ?= "4.9%"
