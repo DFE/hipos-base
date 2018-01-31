@@ -236,5 +236,8 @@ BUILDHISTORY_FEATURES ?= ""
 # to build this images.
 DISTRO_FEATURES_remove = "x11 wayland"
 
+# Remove also ld-is-gold for x86-64. GNU gold is a linker for ELF files only. HYP-17946
+DISTRO_FEATURES_remove_x86-64 = "x11 wayland ld-is-gold"
+
 # add "ptest" to our DISTRO_FEATURES variable causes -ptest packages to be built.
 DISTRO_FEATURES_append = " ptest"
