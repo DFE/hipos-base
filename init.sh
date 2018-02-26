@@ -22,6 +22,8 @@ BB_LAYERS_INCLUDED="\
 	meta-qt4 \
 	meta-qt5 \
 	meta-telephony \
+	meta-congatec-x86 \
+	meta-intel \
 	meta-angstrom \
 	meta-openembedded/meta-oe \
 	meta-openembedded/meta-multimedia \
