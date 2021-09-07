@@ -9,3 +9,4 @@ local.conf.template      local.conf template merged with private.conf
 
 do_private_conf.awk      merge script for local.conf
 init.sh                  generic layer init script to be sourced from hipos-init.sh
+
