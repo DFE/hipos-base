@@ -1,5 +1,7 @@
 #! /usr/bin/awk -f
-
+#
+# Copyright (C) 2013-2023 DResearch Fahrzeugelektronik GmbH
+#
 # remember all non-comment lines from the first file (= private.conf)
 # array entries are accessed via the first field, i.e. the option to be set
 # this means that all kinds of assignment operators will work

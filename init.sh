@@ -1,6 +1,7 @@
 #!/bin/bash
-#!/bin/bash
 # vim:set ts=4 sw=4 noexpandtab:
+#
+# Copyright (C) 2013-2023 DResearch Fahrzeugelektronik GmbH
 #
 # \brief General bitbake build init script called from project specific init script
 # \description This script realizes non project specific initializations for the hipos
