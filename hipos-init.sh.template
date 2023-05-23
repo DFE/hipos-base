@@ -1,6 +1,8 @@
 #!/bin/bash
 # vim:set ts=4 sw=4 noexpandtab:
 #
+# Copyright (C) 2013-2023 DResearch Fahrzeugelektronik GmbH
+#
 # \brief Build specific init script example.
 # \description This script has to be placed into the root repository and should be
 #              called after fetching the root repository.
