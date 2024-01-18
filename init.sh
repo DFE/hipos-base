@@ -33,9 +33,6 @@ BB_LAYERS_INCLUDED="\
 	meta-openembedded/meta-gnome \
 	meta-openembedded/meta-xfce \
 	openembedded-core/meta \
-	meta-hailo/meta-hailo-accelerator \
-	meta-hailo/meta-hailo-libhailort \
-	meta-hailo/meta-hailo-tappas \
 "
 
 BB_BUILD_DIR_BASE=build
