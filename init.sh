@@ -1,7 +1,7 @@
 #!/bin/bash
 # vim:set ts=4 sw=4 noexpandtab:
 #
-# Copyright (C) 2013-2023 DResearch Fahrzeugelektronik GmbH
+# Copyright (C) 2013-2024 DResearch Fahrzeugelektronik GmbH
 #
 # \brief General bitbake build init script called from project specific init script
 # \description This script realizes non project specific initializations for the hipos
@@ -21,7 +21,7 @@ BB_LAYERS_INCLUDED="\
 	meta-freescale \
 	meta-fsl-arm-extra \
 	meta-python2 \
-	meta-qt5 \
+	meta-qt6 \
 	meta-intel \
 	poky/meta-poky \
 	meta-openembedded/meta-oe \
