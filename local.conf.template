@@ -288,3 +288,7 @@ DISTRO_FEATURES:append = " ptest"
 
 # suppress thousands of warnings about user contamination during build
 WARN_QA:remove = "host-user-contaminated"
+
+# Remove packagegroup-hailo-tappas-dev-pkg that is automatically added to each image
+# by meta-hailo/meta-hailo-tappas/conf/layer.conf
+CORE_IMAGE_EXTRA_INSTALL:remove = "packagegroup-hailo-tappas-dev-pkg"
